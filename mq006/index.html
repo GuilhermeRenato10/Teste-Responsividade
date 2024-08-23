@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos commodi explicabo non beatae delectus cumque consequuntur sapiente atque accusamus, soluta alias aperiam, necessitatibus nemo neque minima quasi quae mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus suscipit facere voluptatum voluptas aliquid illo eveniet qui officia distinctio, et repudiandae totam. Labore nulla modi, exercitationem totam voluptas sunt rem.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum enim vel reiciendis deleniti nisi cupiditate voluptas. Fugit libero consequuntur distinctio. Aut accusantium repellat totam alias consequatur, sapiente consequuntur ad ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere temporibus vero quisquam voluptatibus commodi. Voluptatum minima, explicabo assumenda esse quaerat aspernatur possimus sit ad officiis nam nihil nisi consectetur. Ex.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A possimus quod quo aperiam, in perspiciatis nostrum, molestiae modi id voluptas sapiente, iusto ratione illo exercitationem deserunt autem delectus at molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat doloremque dolor perspiciatis, ipsa ad rem et repellat? Facilis sunt repellendus doloribus? Nisi rerum doloremque exercitationem, accusamus distinctio doloribus ipsum consequuntur?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
